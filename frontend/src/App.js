@@ -116,7 +116,7 @@ function App() {
     aiEmployeeRole: "Requests and compares quotes, places POs, tracks delivery, matches GRNs with invoices.",
     outcome: "50% reduction in cycle time, lower procurement leakage.",
     icon: DollarSign,
-    image: networkViz
+    image: aiInterface
   },
   {
     title: "Finance & Compliance",

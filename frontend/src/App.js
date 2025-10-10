@@ -23,11 +23,12 @@ import {
   Settings
 } from 'lucide-react'
 
-import heroSphere from './assets/1.jpg'
+import heroSphere from './assets/9.png'
 import aiInterface from './assets/2.jpg'
 import salesDashboard from './assets/3.png'
 import hrWorkflow from './assets/4.png'
 import networkViz from './assets/5.jpeg'
+import howItWorks from './assets/12.png'  
 // import aiInterface from './assets/T1OidFMDThA4.jpg'
 // import networkViz from './assets/u6DTYhRhsAqG.jpeg'
 // import salesDashboard from './assets/Rvd4KRiR2l5p.png'
@@ -202,7 +203,7 @@ function App() {
         </motion.div>
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -213,7 +214,19 @@ function App() {
               alt="AI Energy Sphere" 
               className="w-64 h-64 mx-auto mb-8 rounded-full object-cover opacity-80"
             />
-          </motion.div>
+          </motion.div> */}
+          <motion.div
+  initial={{ opacity: 0, y: 50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="mb-8 mt-[7.3rem]"
+>
+  <img 
+    src={heroSphere} 
+    alt="AI Energy Sphere" 
+    className="w-64 h-64 mx-auto mb-8 rounded-full object-cover opacity-80"
+  />
+</motion.div>
           
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -221,7 +234,7 @@ function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent"
           >
-            Your AI Teammate Who Execute Real Work
+            Your AI Teammates Who Execute Real Work
           </motion.h1>
           
           <motion.p
@@ -362,7 +375,7 @@ function App() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 px-6">
+      {/* <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -405,7 +418,33 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="py-20 px-6">
+  <div className="max-w-7xl mx-auto">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+      className="text-center mb-16"
+    >
+      <h2 className="text-4xl md:text-5xl font-bold mb-6">How It Works</h2>
+    </motion.div>
+    
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}
+    >
+      <img 
+        src={howItWorks} 
+        alt="How It Works Process" 
+        className="w-full mx-auto rounded-2xl"
+      />
+    </motion.div>
+  </div>
+</section>
 
       {/* Use Cases Section */}
       <section id="use-cases" className="py-20 px-6 bg-gradient-to-br from-purple-900/10 to-blue-900/10">

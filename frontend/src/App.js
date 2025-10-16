@@ -187,9 +187,11 @@ function App() {
             <a href="#features" className="hover:text-blue-400 transition-colors">Features</a>
             <a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a>
           </div>
-          <Button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700">
-            Book a Pilot
-          </Button>
+         <a href="https://calendly.com/paul1506/let-s-sync-up" target="_blank" rel="noopener noreferrer">
+  <Button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700">
+    Book a Pilot
+  </Button>
+</a>
         </div>
       </nav>
 
@@ -252,9 +254,11 @@ function App() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
           >
-            <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-lg px-8 py-4">
-              Book a Pilot <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="https://calendly.com/paul1506/let-s-sync-up" target="_blank" rel="noopener noreferrer">
+  <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-lg px-8 py-4">
+    Book a Pilot <ArrowRight className="ml-2 h-5 w-5" />
+  </Button>
+</a>
             {/* <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 text-lg px-8 py-4">
               Watch Demo
             </Button> */}
@@ -673,9 +677,11 @@ function App() {
               Transform your enterprise workflows with our Virtual AI Assistant
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-lg px-8 py-4">
-                Book a Pilot <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+              <a href="https://calendly.com/paul1506/let-s-sync-up" target="_blank" rel="noopener noreferrer">
+  <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-lg px-8 py-4">
+    Book a Pilot <ArrowRight className="ml-2 h-5 w-5" />
+  </Button>
+</a>
               {/* <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 text-lg px-8 py-4">
                 Contact Sales
               </Button> */}
